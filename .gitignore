@@ -1,0 +1,14 @@
+# Track only save files and save states
+*
+!.gitignore
+!saves/
+!saves/**
+!states/
+!states/**
+
+# Within those dirs, only track actual save files
+saves/**
+!saves/**/*.srm
+states/**
+!states/**/*.state
+!states/**/*.state.*
